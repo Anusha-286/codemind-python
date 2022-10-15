@@ -1,12 +1,12 @@
 s=input()
-n=s.lower()
+s=s.lower()
 v=['a','e','i','o','u']
 l=[]
-for i in n:
+for i in s:
     if i in v:
-        if i not in l:
+        if i  not in l:
             l.append(i)
-if len(l)==len(v):
+if len(v)==len(l):
     print(0)
 else:
     for j in v:
